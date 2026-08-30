@@ -7,7 +7,7 @@ import pickle
 
 app = Flask(__name__)
 
-car = pd.read_csv("Cleaned_Car.csv")
+car = pd.read_csv("cleaned_Car.csv")
 
 model = pickle.load(open("LinearRegressionModel.pkl", "rb"))
 
